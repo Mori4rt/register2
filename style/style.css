@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400; 500; 600; 700; 800&display=swap');
+
+.page {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #E7D2D2;
+}
+
+.registration {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.authorization {
+    text-align: center;
+    margin-top: 192px;
+}
+
+.h1 {
+    font-weight: 800;
+    font-size: 25px;
+    color: #521515;
+    margin: 0;
+}
+
+.autho-regis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 9px;
+}
+
+.ques {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: #521515;
+}
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #B52525;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.inputs {
+    margin-top: 40px;
+}
+
+.input {
+    margin-bottom: 13px;
+    background-color: #F5F5F5;
+    border: 1px solid #4C0909;
+    border-radius: 20px;
+    padding: 15px 120px 15px 44px;
+    font-size: 20px;
+    font-weight: 400;
+}
+input:focus {
+    outline: #B52525;
+    border-color: #B52525;
+    color: #000;
+}
+
+input::-webkit-input-placeholder { color: #B2B2B2; }
+
+.btn {
+    width: 323px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    margin-top: 27px;
+    background-color: #A16B6B;
+    color: #521515;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 580px) {
+    .registration {
+        margin-top: 110px;
+    }
+
+    .h1 {
+        font-size: 23px;
+    }
+
+    .autho-regis {
+        margin-top: 5px;
+    }
+
+    .input {
+        margin-bottom: 2vw;
+        border-radius: 3vw;
+        padding: 2.5vw 21vw 2.5vw 7vw;
+        font-size: 3.5vw;
+    }
+
+    .btn {
+        width: 55vw;
+        height: 9vw;
+        border-radius: 3vw;
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .registration {
+        margin-top: 130px;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+
+    .autho-regis {
+        display: block;
+    }
+
+    .ques {
+        font-size: 15px;
+    }
+
+    .input {
+        margin-bottom: 5px;
+        border-radius: 13px;
+        padding: 10px 70px 10px 15px;
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 200px;
+        height: 40px;
+        border-radius: 13px;
+        font-size: 15px;
+    }
+}
